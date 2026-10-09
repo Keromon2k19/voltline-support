@@ -1,0 +1,29 @@
+{
+  "name": "Voltline Support (Salesforce DX)",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "21"
+    }
+  },
+  "postCreateCommand": "npm install --global @salesforce/cli && npm install",
+  "forwardPorts": [1717],
+  "portsAttributes": {
+    "1717": {
+      "label": "Salesforce OAuth callback",
+      "onAutoForward": "silent"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "salesforce.salesforcedx-vscode",
+        "salesforce.salesforcedx-vscode-agents",
+        "redhat.vscode-xml",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "financialforce.lana"
+      ]
+    }
+  }
+}

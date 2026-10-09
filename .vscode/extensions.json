@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "salesforce.salesforcedx-vscode",
+    "salesforce.salesforcedx-vscode-agents",
+    "redhat.vscode-xml",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "financialforce.lana"
+  ]
+}
