@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Audio</fullName>
+        <default>false</default>
+        <label>Audio</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Phones</fullName>
+        <default>false</default>
+        <label>Celulares</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Laptops</fullName>
+        <default>false</default>
+        <label>Notebooks</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Wearables</fullName>
+        <default>false</default>
+        <label>Wearables</label>
+    </standardValue>
+</StandardValueSet>
