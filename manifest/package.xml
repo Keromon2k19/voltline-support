@@ -20,6 +20,12 @@
         <name>Layout</name>
     </types>
     <types>
+        <members>Voltline_Administrator</members>
+        <members>Voltline_Storefront_Integration</members>
+        <members>Voltline_Support_Rep</members>
+        <name>PermissionSetGroup</name>
+    </types>
+    <types>
         <members>Order.Web_orders_by_shipping_status</members>
         <members>Product2.Low_stock_products</members>
         <name>ListView</name>
