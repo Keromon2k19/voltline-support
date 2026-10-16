@@ -1,8 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>Product2.Warranty_Months__c</members>
         <members>Product2.Stock__c</members>
+        <members>Order.Delivery_Date__c</members>
+        <members>Order.Estimated_Delivery_Date__c</members>
+        <members>Order.Shipping_Status__c</members>
+        <members>Order.Storefront_Order_Id__c</members>
+        <members>Order.Tracking_Number__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -11,6 +16,7 @@
     </types>
     <types>
         <members>Product2-Product Layout</members>
+        <members>Order-Order Layout</members>
         <name>Layout</name>
     </types>
     <version>67.0</version>
