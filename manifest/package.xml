@@ -13,5 +13,11 @@
         <members>Product2-Product Layout</members>
         <name>Layout</name>
     </types>
+    <types>
+        <members>Voltline_Administrator</members>
+        <members>Voltline_Storefront_Integration</members>
+        <members>Voltline_Support_Rep</members>
+        <name>PermissionSetGroup</name>
+    </types>
     <version>67.0</version>
 </Package>
