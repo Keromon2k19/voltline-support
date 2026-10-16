@@ -19,5 +19,14 @@
         <members>Order-Order Layout</members>
         <name>Layout</name>
     </types>
+    <types>
+        <members>Order.Web_orders_by_shipping_status</members>
+        <members>Product2.Low_stock_products</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Order_Detail_Page</members>
+        <name>FlexiPage</name>
+    </types>
     <version>67.0</version>
 </Package>
