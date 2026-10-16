@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Web_orders_by_shipping_status</fullName>
+    <columns>ORDERS.ORDER_NUMBER</columns>
+    <columns>Shipping_Status__c</columns>
+    <columns>SALES.ACCOUNT.NAME</columns>
+    <columns>ORDERS.STATUS</columns>
+    <columns>ORDERS.EFFECTIVE_DATE</columns>
+    <columns>Delivery_Date__c</columns>
+    <columns>ORDERS.END_DATE</columns>
+    <columns>ORDERS.TOTAL_AMOUNT</columns>
+    <filterScope>Everything</filterScope>
+    <label>Web orders by shipping status</label>
+</ListView>
