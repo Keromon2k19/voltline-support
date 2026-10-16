@@ -13,5 +13,12 @@
         <members>Product2-Product Layout</members>
         <name>Layout</name>
     </types>
+    <types>
+        <members>Voltline_Admin_Fields</members>
+        <members>Voltline_Fulfillment</members>
+        <members>Voltline_Store_Read</members>
+        <members>Voltline_Storefront_API</members>
+        <name>PermissionSet</name>
+    </types>
     <version>67.0</version>
 </Package>
