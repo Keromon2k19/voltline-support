@@ -1,8 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>Product2.Warranty_Months__c</members>
         <members>Product2.Stock__c</members>
+        <members>Order.Delivery_Date__c</members>
+        <members>Order.Estimated_Delivery_Date__c</members>
+        <members>Order.Shipping_Status__c</members>
+        <members>Order.Storefront_Order_Id__c</members>
+        <members>Order.Tracking_Number__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -11,7 +16,28 @@
     </types>
     <types>
         <members>Product2-Product Layout</members>
+        <members>Order-Order Layout</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>Order.Tracking_Number_Required</members>
+        <name>ValidationRule</name>
+    </types>
+    <types>
+        <members>Voltline_Admin_Fields</members>
+        <members>Voltline_Fulfillment</members>
+        <members>Voltline_Store_Read</members>
+        <members>Voltline_Storefront_API</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Order.Web_orders_by_shipping_status</members>
+        <members>Product2.Low_stock_products</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Order_Detail_Page</members>
+        <name>FlexiPage</name>
     </types>
     <version>67.0</version>
 </Package>
