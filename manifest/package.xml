@@ -20,6 +20,12 @@
         <name>Layout</name>
     </types>
     <types>
+        <members>Voltline_Administrator</members>
+        <members>Voltline_Storefront_Integration</members>
+        <members>Voltline_Support_Rep</members>
+        <name>PermissionSetGroup</name>
+    </types>
+    <types>
         <members>Order.Tracking_Number_Required</members>
         <name>ValidationRule</name>
     </types>
@@ -38,6 +44,14 @@
     <types>
         <members>Order_Detail_Page</members>
         <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Store_Setting__mdt</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Store_Setting.Default</members>
+        <name>CustomMetadata</name>
     </types>
     <version>67.0</version>
 </Package>
