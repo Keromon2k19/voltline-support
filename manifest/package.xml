@@ -20,6 +20,12 @@
         <name>Layout</name>
     </types>
     <types>
+        <members>Voltline_Administrator</members>
+        <members>Voltline_Storefront_Integration</members>
+        <members>Voltline_Support_Rep</members>
+        <name>PermissionSetGroup</name>
+    </types>
+    <types>
         <members>Order.Tracking_Number_Required</members>
         <name>ValidationRule</name>
     </types>
