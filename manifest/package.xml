@@ -45,13 +45,5 @@
         <members>Order_Detail_Page</members>
         <name>FlexiPage</name>
     </types>
-    <types>
-        <members>Store_Setting__mdt</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Store_Setting.Default</members>
-        <name>CustomMetadata</name>
-    </types>
     <version>67.0</version>
 </Package>
