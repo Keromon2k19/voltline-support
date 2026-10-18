@@ -15,3 +15,4 @@ node_modules/
 
 # Placeholder that keeps the package directory in git
 **/.gitkeep
+**/profiles/**
