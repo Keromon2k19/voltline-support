@@ -26,6 +26,10 @@
         <name>PermissionSetGroup</name>
     </types>
     <types>
+        <members>Order.Tracking_Number_Required</members>
+        <name>ValidationRule</name>
+    </types>
+    <types>
         <members>Voltline_Admin_Fields</members>
         <members>Voltline_Fulfillment</members>
         <members>Voltline_Store_Read</members>
