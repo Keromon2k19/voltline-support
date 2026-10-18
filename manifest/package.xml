@@ -13,5 +13,9 @@
         <members>Product2-Product Layout</members>
         <name>Layout</name>
     </types>
+    <types>
+        <members>Order.Tracking_Number_Required</members>
+        <name>ValidationRule</name>
+    </types>
     <version>67.0</version>
 </Package>
