@@ -1,0 +1,102 @@
+[
+  {
+    "firstName": "Ana",
+    "lastName": "Gomez",
+    "email": "ana.gomez@example.com"
+  },
+  {
+    "firstName": "Bruno",
+    "lastName": "Fernandez",
+    "email": "bruno.fernandez@example.com"
+  },
+  {
+    "firstName": "Carla",
+    "lastName": "Lopez",
+    "email": "carla.lopez@example.com"
+  },
+  {
+    "firstName": "Diego",
+    "lastName": "Martinez",
+    "email": "diego.martinez@example.com"
+  },
+  {
+    "firstName": "Elena",
+    "lastName": "Rodriguez",
+    "email": "elena.rodriguez@example.com"
+  },
+  {
+    "firstName": "Facundo",
+    "lastName": "Perez",
+    "email": "facundo.perez@example.com"
+  },
+  {
+    "firstName": "Gabriela",
+    "lastName": "Sanchez",
+    "email": "gabriela.sanchez@example.com"
+  },
+  {
+    "firstName": "Hugo",
+    "lastName": "Romero",
+    "email": "hugo.romero@example.com"
+  },
+  {
+    "firstName": "Irene",
+    "lastName": "Diaz",
+    "email": "irene.diaz@example.com"
+  },
+  {
+    "firstName": "Julian",
+    "lastName": "Torres",
+    "email": "julian.torres@example.com"
+  },
+  {
+    "firstName": "Karina",
+    "lastName": "Ruiz",
+    "email": "karina.ruiz@example.com"
+  },
+  {
+    "firstName": "Lucas",
+    "lastName": "Alvarez",
+    "email": "lucas.alvarez@example.com"
+  },
+  {
+    "firstName": "Marta",
+    "lastName": "Castro",
+    "email": "marta.castro@example.com"
+  },
+  {
+    "firstName": "Nicolas",
+    "lastName": "Ortiz",
+    "email": "nicolas.ortiz@example.com"
+  },
+  {
+    "firstName": "Olivia",
+    "lastName": "Silva",
+    "email": "olivia.silva@example.com"
+  },
+  {
+    "firstName": "Pablo",
+    "lastName": "Nunez",
+    "email": "pablo.nunez@example.com"
+  },
+  {
+    "firstName": "Quimey",
+    "lastName": "Herrera",
+    "email": "quimey.herrera@example.com"
+  },
+  {
+    "firstName": "Rocio",
+    "lastName": "Medina",
+    "email": "rocio.medina@example.com"
+  },
+  {
+    "firstName": "Santiago",
+    "lastName": "Aguirre",
+    "email": "santiago.aguirre@example.com"
+  },
+  {
+    "firstName": "Tamara",
+    "lastName": "Vega",
+    "email": "tamara.vega@example.com"
+  }
+]
