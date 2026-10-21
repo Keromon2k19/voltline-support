@@ -43,11 +43,45 @@ sf org login web --alias voltline --set-default
 
 `sf org login web` needs the OAuth callback on `localhost:1717`, so open the codespace from **VS Code Desktop** (not the browser editor) to log in. Stop the codespace when you're done to save free-tier hours.
 
+## Test data
+
+Voltline needs products, customers and orders to be useful. One command loads them, and reloads them from scratch whenever you want:
+
+```bash
+npm run seed
+```
+
+It runs four steps, in order, against your default org:
+
+1. **Reset:** deletes the seeded orders, accounts and contacts, found by their `@example.com` email.
+2. **Products:** loads the 12 products and their Standard Price Book entries from `data/products.json`.
+3. **Customers and orders:** creates 20 customers and 50 activated orders. They cover every shipping status, deliveries under and over 30 days ago, warranties still active and expired, and high and low totals.
+4. **Products again:** puts each product's stock back to its catalog value. Once the stock trigger exists, step 3 would otherwise leave it lower.
+
+Before you run it:
+
+- Run `npm install` and log in with `sf org login web --alias voltline --set-default`. The default org is the one that gets seeded.
+- Your user needs the `Voltline_Administrator` permission set group. The scripts run as anonymous Apex, which checks field access.
+
+Only the seeded data is touched. Other records in the org are left alone.
+
+To run a single step:
+
+```bash
+npm run seed:reset
+npm run seed:products
+npm run seed:orders
+```
+
+The data lives in `data/products.json`, `data/customers.json` and `data/orders.json`. The dates in the orders are counted back from today, so the 30-day and warranty cases stay true whenever you run the seed.
+
 ## Project structure
 
 ```
 force-app/main/default/   Salesforce metadata (objects, Apex, LWC, agent bundles)
 config/                   Scratch org definition
+data/                     Seed data: products, customers and orders (JSON)
+scripts/                  Seed scripts (Apex and Node) and the product image generator
 docs/backlog.md           Product backlog and sprint plan (Spanish)
 .devcontainer/            Codespaces / Dev Containers setup
 ```
