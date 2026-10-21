@@ -55,10 +55,6 @@
     </types>
     <types>
         <members>StoreSettings</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
-        <members>StoreSettings</members>
         <members>StoreSettingsTest</members>
         <name>ApexClass</name>
     </types>
